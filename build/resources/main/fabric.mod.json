@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "entropy",
+    "version": "1.0.0",
+    "name": "Nature's Revenge",
+    "description": "Dynamic entropy system for decaying structures.",
+    "authors": [
+        "Eni"
+    ],
+    "contact": {
+        "homepage": "https://example.com/",
+        "sources": "https://github.com/username/NaturesRevenge"
+    },
+    "license": "All Rights Reserved",
+    "icon": "assets/entropy/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.eni.entropy.NaturesRevengeMod"
+        ]
+    },
+    "mixins": [
+        "entropy.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.5",
+        "minecraft": "~1.21.1",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}
